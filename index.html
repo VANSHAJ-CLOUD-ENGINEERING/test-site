@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaibhav Rawat | Software Developer</title>
+<meta name="description" content="Portfolio of Vaibhav Rawat - Computer Science undergraduate, full-stack developer, AI mobile apps and cloud monitoring.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="pre-inner">
+    <div class="pre-logo">VR</div>
+    <div class="pre-bar"><span></span></div>
+  </div>
+</div>
+
+<div class="progress" id="progress"></div>
+<canvas id="bg"></canvas>
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="grain"></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo">VR<span>.</span></a>
+  <nav class="links" id="links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact" class="btn-mini">Hire me</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<main>
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="eyebrow reveal"><span class="dot"></span> Open to software engineering roles</p>
+    <h1 class="reveal">Hi, I'm <span class="grad">Vaibhav Rawat</span></h1>
+    <h2 class="reveal"><span id="typed"></span><span class="caret">|</span></h2>
+    <p class="lead reveal">Computer Science undergraduate building full-stack apps, AI-enabled mobile products and cloud-based monitoring tools, with a growing passion for cloud technologies.</p>
+    <div class="cta reveal">
+      <a href="#projects" class="btn primary magnetic"><span>View Projects</span></a>
+      <a href="#contact" class="btn ghost magnetic"><span>Contact Me</span></a>
+    </div>
+    <div class="socials reveal">
+      <a href="#" target="_blank" rel="noopener">GitHub</a>
+      <a href="#" target="_blank" rel="noopener">Codeforces</a>
+      <a href="#" target="_blank" rel="noopener">LeetCode</a>
+    </div>
+  </div>
+
+  <div class="hero-visual reveal">
+    <div class="orb o1"></div><div class="orb o2"></div>
+    <div class="avatar tilt">
+      <div class="ring"></div>
+      <div class="avatar-inner">
+        <img src="photo.jpg" alt="Vaibhav Rawat" onerror="this.style.display='none'">
+        <span class="initials">VR</span>
+      </div>
+    </div>
+    <div class="chip c1">React</div>
+    <div class="chip c2">Django</div>
+    <div class="chip c3">AWS</div>
+    <div class="chip c4">Gemini AI</div>
+  </div>
+
+  <a href="#about" class="scroll-hint"><span></span></a>
+</section>
+
+<!-- Marquee -->
+<div class="marquee">
+  <div class="track">
+    <span>React.js</span><span>Django</span><span>Flask</span><span>Docker</span><span>AWS EC2</span><span>Kotlin</span><span>Jetpack Compose</span><span>Gemini API</span><span>Python</span><span>C++</span><span>REST APIs</span><span>Material UI</span>
+    <span>React.js</span><span>Django</span><span>Flask</span><span>Docker</span><span>AWS EC2</span><span>Kotlin</span><span>Jetpack Compose</span><span>Gemini API</span><span>Python</span><span>C++</span><span>REST APIs</span><span>Material UI</span>
+  </div>
+</div>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="sec-head reveal"><span class="num">01</span><h3>About Me</h3><i></i></div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a Computer Science undergraduate with an <b>8.67/10 CGPA</b> and hands-on experience in full-stack development, AI-enabled mobile applications and cloud-based monitoring.</p>
+      <p>Through projects and internships I've built with <b>React, Django, Python, Flask, Docker, AWS EC2</b> and the <b>Gemini API</b>. I enjoy REST API integration, deploying applications, research and writing clear technical documentation.</p>
+      <p>I'm looking for software engineering opportunities where I can grow, ship real products and explore cloud technologies.</p>
+      <div class="edu card tilt">
+        <div class="edu-top"><span class="tag">Education</span><span class="date">Aug 2024 – Present</span></div>
+        <h4>B.Tech in Computer Science and Engineering</h4>
+        <p>Dronacharya College of Engineering, Gurugram</p>
+        <small>Expected Graduation: 2028</small>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat card reveal"><b class="count" data-to="8.67" data-dec="2">0</b><span>CGPA / 10</span></div>
+      <div class="stat card reveal"><b class="count" data-to="95" data-suffix="%">0</b><span>Class X</span></div>
+      <div class="stat card reveal"><b class="count" data-to="90" data-suffix="%">0</b><span>Class XII</span></div>
+      <div class="stat card reveal"><b class="count" data-to="3">0</b><span>Projects Built</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section" id="skills">
+  <div class="sec-head reveal"><span class="num">02</span><h3>Technical Skills</h3><i></i></div>
+  <div class="skills-grid">
+    <div class="skill card tilt reveal"><div class="ico">&lt;/&gt;</div><h4>Languages</h4><div class="pills"><span>C++</span><span>Python</span><span>C</span><span>Java</span><span>JavaScript</span><span>SQL</span></div></div>
+    <div class="skill card tilt reveal"><div class="ico">◧</div><h4>Frontend</h4><div class="pills"><span>React.js</span><span>Material UI</span><span>HTML</span><span>CSS</span></div></div>
+    <div class="skill card tilt reveal"><div class="ico">⚙</div><h4>Backend &amp; APIs</h4><div class="pills"><span>Django</span><span>Flask</span><span>REST APIs</span></div></div>
+    <div class="skill card tilt reveal"><div class="ico">☁</div><h4>Cloud &amp; Deployment</h4><div class="pills"><span>AWS EC2</span><span>Docker</span><span>Git</span><span>GitHub</span><span>Vercel</span></div></div>
+    <div class="skill card tilt reveal"><div class="ico">✦</div><h4>AI &amp; Mobile</h4><div class="pills"><span>Gemini API</span><span>Kotlin</span><span>Jetpack Compose</span><span>Room</span></div></div>
+    <div class="skill card tilt reveal"><div class="ico">✎</div><h4>Docs &amp; Research</h4><div class="pills"><span>Technical Documentation</span><span>Research</span><span>Content Development</span></div></div>
+  </div>
+  <div class="concepts reveal">
+    <span>Core Concepts</span>
+    <div class="pills big"><span>API Integration</span><span>State Management</span><span>Containerization</span></div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="projects">
+  <div class="sec-head reveal"><span class="num">03</span><h3>Featured Projects</h3><i></i></div>
+  <div class="projects">
+
+    <article class="project card tilt reveal">
+      <div class="p-top"><span class="p-num">01</span><span class="p-arrow">↗</span></div>
+      <h4>ConnectIntern</h4>
+      <p class="p-sub">Internship Discovery Platform</p>
+      <ul>
+        <li>Built a responsive platform with reusable React components, Hooks and Context API for state management.</li>
+        <li>Integrated frontend and backend through REST APIs, with internship browsing and opportunity-detail workflows.</li>
+        <li>Contributed to project documentation and deployed the frontend on Vercel.</li>
+      </ul>
+      <div class="pills"><span>React.js</span><span>JavaScript</span><span>Material UI</span><span>Django</span><span>REST APIs</span></div>
+    </article>
+
+    <article class="project card tilt reveal">
+      <div class="p-top"><span class="p-num">02</span><span class="p-arrow">↗</span></div>
+      <h4>CyberSafe AI</h4>
+      <p class="p-sub">AI-Powered Cybersecurity App</p>
+      <ul>
+        <li>Android app that helps users identify scams, phishing attempts, suspicious URLs, emails and APK files.</li>
+        <li>Integrated the Gemini API for AI-assisted analysis and clear security explanations.</li>
+        <li>Used Room for local storage and offline fallback functionality.</li>
+      </ul>
+      <div class="pills"><span>Kotlin</span><span>Jetpack Compose</span><span>Gemini API</span><span>Room</span></div>
+    </article>
+
+    <article class="project card tilt reveal">
+      <div class="p-top"><span class="p-num">03</span><span class="p-arrow">↗</span></div>
+      <h4>CloudOps Dashboard</h4>
+      <p class="p-sub">Real-time Monitoring</p>
+      <ul>
+        <li>Flask dashboard monitoring CPU, memory, disk and network utilization in real time.</li>
+        <li>Containerized with Docker and deployed on AWS EC2, using Git for version control.</li>
+      </ul>
+      <div class="pills"><span>Python</span><span>Flask</span><span>Docker</span><span>AWS EC2</span></div>
+    </article>
+
+  </div>
+</section>
+
+<!-- Experience -->
+<section class="section" id="experience">
+  <div class="sec-head reveal"><span class="num">04</span><h3>Experience</h3><i></i></div>
+  <div class="timeline">
+    <div class="t-item reveal">
+      <div class="t-dot"></div>
+      <div class="t-card card">
+        <div class="t-top"><h4>Software Development Intern</h4><span class="date">1 Jul 2026 – 1 Aug 2026</span></div>
+        <p class="company">UGX Private Limited</p>
+        <ul>
+          <li>Contributed to the development of ConnectIntern using React.js, JavaScript, Material UI, Django and REST APIs.</li>
+          <li>Worked on reusable frontend components, frontend-backend integration, internship discovery workflows and technical documentation.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="t-item reveal">
+      <div class="t-dot"></div>
+      <div class="t-card card">
+        <div class="t-top"><h4>Subject Matter Expert</h4><span class="date">1 Jun 2026 – 30 Jun 2026</span></div>
+        <p class="company">Learn As You Grow Pvt. Ltd.</p>
+        <ul>
+          <li>Conducted subject-specific research and developed structured learning content and documentation.</li>
+          <li>Reviewed and organized educational material to improve clarity, accuracy and consistency.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section class="section" id="achievements">
+  <div class="sec-head reveal"><span class="num">05</span><h3>Certifications &amp; Achievements</h3><i></i></div>
+  <div class="ach-grid">
+    <div class="ach card tilt reveal gold"><span class="badge">Top 5% All-India</span><h4>Design and Implementation of Human Computer Interface</h4><p>NPTEL · Topper · 79%</p></div>
+    <div class="ach card tilt reveal gold"><span class="badge">Top 5%</span><h4>Data Structures and Algorithms Design</h4><p>NPTEL</p></div>
+    <div class="ach card tilt reveal"><h4>Joy of Computing Using Python</h4><p>NPTEL</p></div>
+    <div class="ach card tilt reveal"><h4>Data Structures Using C</h4><p>NPTEL</p></div>
+    <div class="ach card tilt reveal"><h4>Programming in Java</h4><p>NPTEL</p></div>
+    <div class="ach card tilt reveal"><h4>Web Development Certification</h4><p>Certification</p></div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section contact" id="contact">
+  <div class="sec-head reveal"><span class="num">06</span><h3>Get In Touch</h3><i></i></div>
+  <div class="contact-box card reveal">
+    <h2>Let's build something <span class="grad">great</span> together.</h2>
+    <p>I'm actively looking for software engineering opportunities. Drop a message and I'll get back to you.</p>
+    <div class="contact-links">
+      <a href="mailto:rawatvaibhav1989@gmail.com" class="c-link"><small>Email</small>rawatvaibhav1989@gmail.com</a>
+      <a href="tel:+919315131587" class="c-link"><small>Phone</small>+91 9315131587</a>
+      <div class="c-link"><small>Location</small>Gurugram, India</div>
+    </div>
+    <form id="form" class="form">
+      <input type="text" id="fname" placeholder="Your name" required>
+      <input type="email" id="femail" placeholder="Your email" required>
+      <textarea id="fmsg" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn primary magnetic"><span>Send Message</span></button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Vaibhav Rawat · Crafted with HTML, CSS &amp; JavaScript</p>
+  <a href="#home" class="top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
